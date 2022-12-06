@@ -1,0 +1,20 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "email web scrapper",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "serhii-hnidobor",
+  "license": "ISC",
+  "dependencies": {
+    "email-regex-safe": "^2.0.1",
+    "node-fetch": "^3.3.0",
+    "node-html-parser": "^6.1.4",
+    "parse-url": "^8.1.0",
+    "re2": "^1.17.8"
+  }
+}
